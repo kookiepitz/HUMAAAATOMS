@@ -5,7 +5,7 @@ using System.Collections;
 public class LoadingScreenFadeIn : MonoBehaviour
 {
     public Image fadeImage;  // Reference to the white image
-    public float fadeDuration = 3f;  // Duration for the fade to complete
+    public float fadeDuration = 2f;  // Duration for the fade to complete
 
     void Start()
     {

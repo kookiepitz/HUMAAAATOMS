@@ -8,7 +8,7 @@ public class LoadingScreenFadeOut : MonoBehaviour
     public Slider progressBar;    // Reference to the slider
     public Image fillImage;       // Reference to the fill area of the slider
     public Camera mainCamera;     // Reference to the main camera
-    public float fadeDuration = 2f; // Duration of the color fade effect
+    public float fadeDuration = 1f; // Duration of the color fade effect
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class LoadingScreenFadeOut : MonoBehaviour
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
         operation.allowSceneActivation = false; // Prevent immediate scene activation
 
-        while (operation.progress < 0.6f)
+        while (operation.progress < 0.9f)
         {
             // Update the progress bar value gradually
             progressBar.value = Mathf.Lerp(progressBar.value, Mathf.Clamp01(operation.progress / 0.9f), Time.deltaTime * 5f);

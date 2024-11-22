@@ -3250,7 +3250,7 @@ MonoBehaviour:
   progressBar: {fileID: 50942990}
   fillImage: {fileID: 2026008631}
   mainCamera: {fileID: 0}
-  fadeDuration: 2
+  fadeDuration: 1
 --- !u!225 &2076630556
 CanvasGroup:
   m_ObjectHideFlags: 0

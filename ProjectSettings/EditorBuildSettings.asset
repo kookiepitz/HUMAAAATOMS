@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScreen.unity
     guid: 342dec7acb0ee2d41918a2e52da84af6
   - enabled: 1
-    path: Assets/Scenes/TutorialControl.unity
+    path: Assets/Scenes/TutorialControlSample.unity
     guid: ca9125476c6123243bfe7caa38ba38e3
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 756aba46e5bf27a40aff052aefea7b92, type: 2}
