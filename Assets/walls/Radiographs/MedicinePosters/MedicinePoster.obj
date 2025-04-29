@@ -1,0 +1,15 @@
+# Blender v2.66 (sub 1) OBJ File: 'MedicinePoster.blend'
+# www.blender.org
+mtllib MedicinePoster.mtl
+o Plane
+v 1.366290 -1.417809 0.000000
+v -1.198432 -1.417809 0.000000
+v 1.366290 1.417809 -0.000000
+v -1.198432 1.417809 -0.000000
+vt 0.235923 0.193472
+vt 0.790411 0.193472
+vt 0.790411 0.806528
+vt 0.235923 0.806528
+usemtl None
+s off
+f 2/1 1/2 3/3 4/4

@@ -1,0 +1,15 @@
+# Blender v2.66 (sub 1) OBJ File: 'Radiograph.blend'
+# www.blender.org
+mtllib Radiograph.mtl
+o Plane
+v 0.817191 -1.000000 0.000000
+v -0.809574 -1.000000 0.000000
+v 0.817191 1.000000 -0.000000
+v -0.809574 1.000000 -0.000000
+vt 0.227441 0.163849
+vt 0.774279 0.163849
+vt 0.774279 0.836151
+vt 0.227441 0.836151
+usemtl None
+s off
+f 2/1 1/2 3/3 4/4
